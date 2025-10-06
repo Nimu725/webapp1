@@ -51,6 +51,7 @@
 	<build>
 		<plugins>
 			<plugin>
+				<packaging>war</packaging>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
