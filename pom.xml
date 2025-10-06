@@ -6,6 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.5</version>
+		 <packaging>war</packaging>   <!-- ✅ Packaging must be here -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.klu</groupId>
@@ -51,7 +52,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<packaging>war</packaging>
+			
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
